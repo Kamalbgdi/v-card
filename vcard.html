@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>V Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f4f4f4;
+      }
+      .card {
+        display: flex;
+        width: 800px;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      .left {
+        width: 40%;
+        background: linear-gradient(135deg, #053051, #3a27ca);
+        color: white;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .left img {
+        width: 80%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      .left .contact {
+        margin-top: 20px;
+      }
+      .right {
+        width: 60%;
+        padding: 40px;
+      }
+      .right h1 {
+        font-size: 28px;
+        font-weight: 600;
+      }
+      .right h1 span {
+        color: #3a27ca;
+      }
+      .right p {
+        margin-top: 10px;
+        color: #666;
+      }
+      .buttons {
+        margin-top: 20px;
+      }
+      .buttons a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-right: 10px;
+        font-weight: bold;
+      }
+      .portfolio {
+        background: #1e1786;
+        color: white;
+      }
+      .resume {
+        border: 2px solid black;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="left">
+        <img src="./assets/danoldprumt.jpeg" alt="The new oil explorer" />
+        <div class="contact">
+          <p>Email: donald@trump.ru</p>
+          <p>Phone: +964 123 456 7890</p>
+        </div>
+      </div>
+      <div class="right">
+        <h1>DANOLD <span>PRUMT</span></h1>
+        <p>Lead Apprenticizer - Washington, Greenland</p>
+        <p>
+          Hi, I'm Danold Prumt, the one and only Lead Apprenticizer of
+          Washington, Greenland. I turn rookies into pros—bigly. If you're not
+          winning, you're probably not apprenticing with me!
+        </p>
+        <div class="buttons">
+          <a href="https://thatsthefinger.com/" class="portfolio">PORTFOLIO</a>
+          <a href="https://burymewithmymoney.com/" class="resume">RESUME</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
